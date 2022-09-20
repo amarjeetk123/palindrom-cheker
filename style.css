@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:wght@300;400;500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(45deg, #7cc449 20%, #1b98f5 110%);
+/* background: #e6e6fa; */
+}
+.heading{
+    font-size: 40px;
+    font-weight: 500;
+   font-family: cursive;
+   margin-bottom: 10px;
+ text-align: center;
+}
+.main{
+    background: #ffffff;
+    box-shadow: 1px 1px 2px 1px #bbbbcd;
+    padding: 20px 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   border-radius: 10px;
+   gap: 20px;
+}
+.input_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.input_section h1{
+    font-size: 29px;
+    font-family:Roboto ;
+    font-weight: 500;
+}
+input{
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 5px;
+   
+    letter-spacing: 1px;
+}
+.btn_group{
+    display: flex;
+    gap: 100px;
+}
+#check_btn , #reset_btn {
+    padding: 10px 10px;
+     width: 120px;
+     border-radius: 5px;
+     border: none;
+     cursor: pointer;
+     font-size: 15px;
+     background: #e6e6fa;
+     box-shadow: 2px 2px 5px 1px #9191c2;
+}
+#reset_btn{   
+    width: 80px;   
+}
+
+#res{
+    font-size: 30px;
+    font-weight: 500;
+}
+#reset_btn:hover ,#check_btn:hover{
+   box-shadow: 1px 1px 4px 1px;
+   transition: 0.4s;
+   transform: scale(1.1);
+}
+
+@media screen and (max-width:500px) {
+    .input_section{
+        flex-direction: column;
+    }
+    
+}
