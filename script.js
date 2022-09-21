@@ -17,7 +17,7 @@ function check(){
         document.getElementById("res").innerHTML= "Text is Palindrom"
      }
     else{
-        document.getElementById("res").innerHTML="Not Pakindrom"
+        document.getElementById("res").innerHTML="Not Palindrom"
     }
 }
 
